@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Weather Dashboard — Indore</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="logo">☁️</div>
+      <nav>
+        <a class="active">Weather</a>
+        <a>Cities</a>
+        <a>Map</a>
+        <a>Settings</a>
+      </nav>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div class="city" id="city">Indore</div>
+        <div class="temp" id="temp">--°</div>
+        <div class="icon" id="icon">🌤</div>
+      </header>
+
+      <section class="panel today">
+        <h2>Today's Weather</h2>
+        <div class="weatherDetails">
+          <div class="detail"><span>Condition:</span> <span id="condition">--</span></div>
+          <div class="detail"><span>Temperature:</span> <span id="detailTemp">--°C</span></div>
+          <div class="detail"><span>Feels Like:</span> <span id="realFeel">--°C</span></div>
+          <div class="detail"><span>Humidity:</span> <span id="humidity">--%</span></div>
+          <div class="detail"><span>Wind Speed:</span> <span id="wind">-- km/h</span></div>
+          <div class="detail"><span>Chance of Rain:</span> <span id="chance">--%</span></div>
+          <div class="detail"><span>Last Updated:</span> <span id="timestamp">--</span></div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- alert container -->
+  <div id="alertContainer"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
