@@ -65,3 +65,10 @@ Static Dashboard (S3) ← Historical Weather Data ← DynamoDB
 - [OpenWeatherMap API Documentation](https://openweathermap.org/api)  
 - [AWS Lambda Documentation](https://docs.aws.amazon.com/lambda)  
 - [Amazon S3 Documentation](https://docs.aws.amazon.com/s3)  
+
+---
+
+## 🌐 Final Hosted Link
+[🔗 View Live Dashboard](https://my-weather-dashboard-xyz.s3.eu-north-1.amazonaws.com/index.html)  
+
+---
